@@ -10,8 +10,8 @@
 </head>
 <body class="font-raleway">
     <!-- background -->
-    <header class="bg-[url(../assets/img/banner_bg.jpg)] bg-cover h-[70vh] text-white p-6">
-        <div class="flex flex-col xl:flex-row justify-between xl:px-64">
+    <header class="bg-[url(../assets/img/banner_bg.jpg)] bg-cover h-[80vh] text-white p-6">
+        <div class="flex flex-col xl:flex-row justify-between xl:px-48">
             <a href=""><h2 class="font-montserrat text-4xl uppercase font-black text-center hover:scale-110 hover:text-shadow transition-transform duration-300"><span class="text-jaunetinker">t</span>inker</h2></a>
             <!-- NAVBAR -->
             <div class="lg:hidden text-center p-2">
@@ -35,7 +35,7 @@
 
     <main class="">
         <section class="bg-[url(../assets/img/about-bg.jpg)] bg-cover">
-            <div class="text-white p-6 xl:px-64 flex flex-col xl:flex-row text-center gap-8 items-center pt-36">
+            <div class="text-white p-8 xl:px-48 flex flex-col xl:flex-row text-center gap-8 items-center pt-36">
                 <!-- CARTE 1 -->
                  <div class="flex flex-col items-center">
                     <div class="bg-jaunetinker flex justify-center items-center rounded-full border-2 border-white w-24 h-24 mb-6">
@@ -76,18 +76,29 @@
         </section>
 
         <section class="text-white">
-            <div class="flex flex-col xl:flex-row text-center items-center">
-                <div class="w-2/5 bg-bleutinker xl:px-64 py-36">
-                    <h3 class="font-extrabold text-2xl">Our gallery</h3>
+            <div class="flex flex-col xl:flex-row  h-[90vh]">
+                <!-- BACKGROUND BLEU  -->
+                <div class="xl:w-2/6 bg-bleutinker xl:px-48 py-36 flex flex-col xl:items-start items-center px-6">
+                    <h3 class="uppercase font-black text-2xl mb-4">Our gallery</h3>
+                    <div class="border border-white w-56 mb-4"></div>
                     <p class="">Chia hot chicken la croix ugh dreamcatcher man bun squid vaporware kinfolk.</p>
-                    <ul class="">
-                        <li><a class="font-bold" href="">Show all</a></li>
-                        <li><a class="font-bold" href="">Branding</a></li>
-                        <li><a class="font-bold" href="">Graphic</a></li>
-                        <li><a class="font-bold" href="">Nature</a></li>
-                        <li><a class="font-bold" href="">Animation</a></li>
+                    <ul class="mt-12 flex flex-col gap-6">
+                        <li class="transition-transform duration-300 hover:scale-110"><a class="font-bold text-jaunetinker" href="">Show all</a></li>
+                        <li><a class="font-bold hover:text-jaunetinker transition-colors duration-300" href="">Branding</a></li>
+                        <li><a class="font-bold hover:text-jaunetinker transition-colors duration-300" href="">Graphic</a></li>
+                        <li><a class="font-bold hover:text-jaunetinker transition-colors duration-300" href="">Nature</a></li>
+                        <li><a class="font-bold hover:text-jaunetinker transition-colors duration-300" href="">Animation</a></li>
                     </ul>
                 </div>
+                <!-- GRID  -->
+                    <div class="flex flex-col gap-4 xl:grid grid-cols-2 grid-rows-3 xl:gap-0 p-8 xl:w-2/4">
+                        <img class=" xl:w-full xl:h-full object-cover" src="assets/img/portfolio_big_item_01.jpg" alt="">
+                        <img class=" xl:w-full xl:h-full object-cover" src="assets/img/portfolio_big_item_02.jpg" alt="">
+                        <img class=" xl:w-full xl:h-full object-cover" src="assets/img/portfolio_big_item_03.jpg" alt="">
+                        <img class=" xl:w-full xl:h-full object-cover" src="assets/img/portfolio_item_04.jpg" alt="">
+                        <img class=" xl:w-full xl:h-full object-cover" src="assets/img/portfolio_item_05.jpg" alt="">
+                        <img class=" xl:w-full xl:h-full object-cover" src="assets/img/portfolio_big_item_06.jpg" alt="">
+                    </div>
             </div>
         </section>
 
